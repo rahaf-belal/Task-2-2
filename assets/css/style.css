@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cairo;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    background-color: #f7f5f2;
+}
+/* --- navbar --- */
+.navbar {
+    width: 100%;
+    background-color: black;
+}
+.navbar .links {
+    display: flex;
+    list-style: none;
+}
+.navbar .links li {
+    padding: 10px 20px;
+    width: 25%;
+    text-align: center;
+}
+.navbar .links li a {
+    color: white;
+    text-decoration: none;
+}
+/* --- hero --- */
+.hero {
+    width: 100%;
+    height: 400px;
+    background-image: url(./../img/coffeehouse.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero .open-time {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 0 5px;
+    margin: 0px 0 10px 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.hero .adr {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px 10px 10px 0px;
+    padding: 0 5px;
+}
+.hero .the-cafe {
+    height: 400px;
+    width: 100%;
+    font-size: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* --- ABOUT THE CAFE --- */
+main {
+    margin: 0 200px;
+    /* background-color: rgb(248, 218, 218); */
+}
+.about {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.about h2 {
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 0 8px;
+    text-align: center;
+}
+.pa {
+    color: black;
+}
+.pa p {
+    color: black;
+    margin: 15px 0;
+}
+.Quote {
+    background-color: #e3dada;
+    border-left: 10px solid #c9c5c5;
+    padding: 1px 10px;
+    margin: 15px 0;
+}
+.Quote p {
+    margin: 15px 0;
+}
+.img-about img {
+    width: 100%;
+    margin-top: 10px;
+}
+.img-about p {
+    margin: 10px 0;
+}
+/* --- THE MENU --- */
+.MENU {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.MENU h2 {
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 0 8px;
+    text-align: center;
+}
+.eat-drink {
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    box-shadow: 0 0 5px 1px #afa5a5;
+}
+.eat-drink .eat {
+    color: white;
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    margin: 0 10px;
+}
+.eat-drink .drink {
+    width: 50%;
+    text-align: center;
+}
+.food {
+    padding: 50px 15px;
+    box-shadow: 0 0 5px 1px #afa5a5;
+}
+.food h3 {
+    margin-top: 40px;
+}
+.food p {
+    margin: 15px 0;
+    color: #858181;
+}
+.img-menu {
+    width: 100%;
+    margin-top: 25px;
+}
+/* --- WHERE TO FIND US --- */
+.WHERE {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.WHERE h2 {
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 0 8px;
+    text-align: center;
+}
+.WHERE-p {
+    margin: 20px 0;
+}
+.WHERE-p span {
+    color: white;
+    background-color: black;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+/* --- form --- */
+form input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+form button {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+footer p a {
+    color: black;
+}
+footer {
+    width: 100%;
+    padding: 70px 0;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
